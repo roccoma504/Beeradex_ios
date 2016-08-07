@@ -1,12 +1,10 @@
-language: objective-c
+  
+language: objective-c  
+osx_image: xcode7.3 
+xcode_project: Beeradex.xcodeproj 
+xcode_scheme: Beeradex 
+xcode_sdk: iphonesimulator9.0
 
-branches:
- only:
- - master
- 
-osx_image: xcode7.1
-xcode_sdk: iphonesimulator9.1 
-
-script: xcodebuild -sdk iphonesimulator9.1 build clean test -enableCodeCoverage YES -project Beeradex.xcodeproj -scheme BeeradexTests CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 after_success:
+
   - bash <(curl -s https://codecov.io/bash)
