@@ -8,16 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3926CFE91D5582FC006A17E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926CFE81D5582FC006A17E4 /* AppDelegate.swift */; };
-		3926CFEB1D5582FC006A17E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926CFEA1D5582FC006A17E4 /* ViewController.swift */; };
 		3926CFEE1D5582FC006A17E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3926CFEC1D5582FC006A17E4 /* Main.storyboard */; };
 		3926CFF11D5582FC006A17E4 /* Beeradex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3926CFEF1D5582FC006A17E4 /* Beeradex.xcdatamodeld */; };
 		3926CFF31D5582FC006A17E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3926CFF21D5582FC006A17E4 /* Assets.xcassets */; };
 		3926CFF61D5582FC006A17E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3926CFF41D5582FC006A17E4 /* LaunchScreen.storyboard */; };
-		3926D0011D5582FC006A17E4 /* BeeradexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926D0001D5582FC006A17E4 /* BeeradexTests.swift */; };
+		3926D01F1D57621F006A17E4 /* BeeradexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926D01E1D57621F006A17E4 /* BeeradexUITests.swift */; };
+		3926D0271D576245006A17E4 /* BarListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926D0261D576245006A17E4 /* BarListTableViewController.swift */; };
+		3926D0291D576277006A17E4 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926D0281D576277006A17E4 /* BarTableViewCell.swift */; };
+		3926D02C1D57653D006A17E4 /* BeerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926D02B1D57653D006A17E4 /* BeerTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3926CFFD1D5582FC006A17E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3926CFDD1D5582FC006A17E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3926CFE41D5582FC006A17E4;
+			remoteInfo = Beeradex;
+		};
+		3926D0211D57621F006A17E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3926CFDD1D5582FC006A17E4 /* Project object */;
 			proxyType = 1;
@@ -29,15 +38,19 @@
 /* Begin PBXFileReference section */
 		3926CFE51D5582FC006A17E4 /* Beeradex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beeradex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3926CFE81D5582FC006A17E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3926CFEA1D5582FC006A17E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3926CFED1D5582FC006A17E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3926CFF01D5582FC006A17E4 /* Beeradex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beeradex.xcdatamodel; sourceTree = "<group>"; };
 		3926CFF21D5582FC006A17E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3926CFF51D5582FC006A17E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3926CFF71D5582FC006A17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3926CFFC1D5582FC006A17E4 /* BeeradexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeradexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3926D0001D5582FC006A17E4 /* BeeradexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeradexTests.swift; sourceTree = "<group>"; };
 		3926D0021D5582FC006A17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3926D01C1D57621F006A17E4 /* BeeradexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeradexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3926D01E1D57621F006A17E4 /* BeeradexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeradexUITests.swift; sourceTree = "<group>"; };
+		3926D0201D57621F006A17E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3926D0261D576245006A17E4 /* BarListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarListTableViewController.swift; sourceTree = "<group>"; };
+		3926D0281D576277006A17E4 /* BarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
+		3926D02B1D57653D006A17E4 /* BeerTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +68,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3926D0191D57621F006A17E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +83,7 @@
 			children = (
 				3926CFE71D5582FC006A17E4 /* Beeradex */,
 				3926CFFF1D5582FC006A17E4 /* BeeradexTests */,
+				3926D01D1D57621F006A17E4 /* BeeradexUITests */,
 				3926CFE61D5582FC006A17E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +93,7 @@
 			children = (
 				3926CFE51D5582FC006A17E4 /* Beeradex.app */,
 				3926CFFC1D5582FC006A17E4 /* BeeradexTests.xctest */,
+				3926D01C1D57621F006A17E4 /* BeeradexUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,12 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				3926CFE81D5582FC006A17E4 /* AppDelegate.swift */,
-				3926CFEA1D5582FC006A17E4 /* ViewController.swift */,
-				3926CFEC1D5582FC006A17E4 /* Main.storyboard */,
 				3926CFF21D5582FC006A17E4 /* Assets.xcassets */,
-				3926CFF41D5582FC006A17E4 /* LaunchScreen.storyboard */,
-				3926CFF71D5582FC006A17E4 /* Info.plist */,
+				3926D02A1D576285006A17E4 /* View Controllers */,
 				3926CFEF1D5582FC006A17E4 /* Beeradex.xcdatamodeld */,
+				3926CFF71D5582FC006A17E4 /* Info.plist */,
+				3926CFF41D5582FC006A17E4 /* LaunchScreen.storyboard */,
+				3926CFEC1D5582FC006A17E4 /* Main.storyboard */,
 			);
 			path = Beeradex;
 			sourceTree = "<group>";
@@ -93,10 +115,28 @@
 		3926CFFF1D5582FC006A17E4 /* BeeradexTests */ = {
 			isa = PBXGroup;
 			children = (
-				3926D0001D5582FC006A17E4 /* BeeradexTests.swift */,
+				3926D02B1D57653D006A17E4 /* BeerTable.swift */,
 				3926D0021D5582FC006A17E4 /* Info.plist */,
 			);
 			path = BeeradexTests;
+			sourceTree = "<group>";
+		};
+		3926D01D1D57621F006A17E4 /* BeeradexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3926D01E1D57621F006A17E4 /* BeeradexUITests.swift */,
+				3926D0201D57621F006A17E4 /* Info.plist */,
+			);
+			path = BeeradexUITests;
+			sourceTree = "<group>";
+		};
+		3926D02A1D576285006A17E4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3926D0261D576245006A17E4 /* BarListTableViewController.swift */,
+				3926D0281D576277006A17E4 /* BarTableViewCell.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +177,24 @@
 			productReference = 3926CFFC1D5582FC006A17E4 /* BeeradexTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3926D01B1D57621F006A17E4 /* BeeradexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3926D0251D57621F006A17E4 /* Build configuration list for PBXNativeTarget "BeeradexUITests" */;
+			buildPhases = (
+				3926D0181D57621F006A17E4 /* Sources */,
+				3926D0191D57621F006A17E4 /* Frameworks */,
+				3926D01A1D57621F006A17E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3926D0221D57621F006A17E4 /* PBXTargetDependency */,
+			);
+			name = BeeradexUITests;
+			productName = BeeradexUITests;
+			productReference = 3926D01C1D57621F006A17E4 /* BeeradexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +210,11 @@
 						DevelopmentTeam = Z92AGQ2RYY;
 					};
 					3926CFFB1D5582FC006A17E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z92AGQ2RYY;
+						TestTargetID = 3926CFE41D5582FC006A17E4;
+					};
+					3926D01B1D57621F006A17E4 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Z92AGQ2RYY;
 						TestTargetID = 3926CFE41D5582FC006A17E4;
@@ -173,6 +236,7 @@
 			targets = (
 				3926CFE41D5582FC006A17E4 /* Beeradex */,
 				3926CFFB1D5582FC006A17E4 /* BeeradexTests */,
+				3926D01B1D57621F006A17E4 /* BeeradexUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,6 +259,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3926D01A1D57621F006A17E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -202,8 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3926CFEB1D5582FC006A17E4 /* ViewController.swift in Sources */,
+				3926D0291D576277006A17E4 /* BarTableViewCell.swift in Sources */,
 				3926CFF11D5582FC006A17E4 /* Beeradex.xcdatamodeld in Sources */,
+				3926D0271D576245006A17E4 /* BarListTableViewController.swift in Sources */,
 				3926CFE91D5582FC006A17E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3926D0011D5582FC006A17E4 /* BeeradexTests.swift in Sources */,
+				3926D02C1D57653D006A17E4 /* BeerTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3926D0181D57621F006A17E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3926D01F1D57621F006A17E4 /* BeeradexUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +303,11 @@
 			isa = PBXTargetDependency;
 			target = 3926CFE41D5582FC006A17E4 /* Beeradex */;
 			targetProxy = 3926CFFD1D5582FC006A17E4 /* PBXContainerItemProxy */;
+		};
+		3926D0221D57621F006A17E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3926CFE41D5582FC006A17E4 /* Beeradex */;
+			targetProxy = 3926D0211D57621F006A17E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -375,6 +460,28 @@
 			};
 			name = Release;
 		};
+		3926D0231D57621F006A17E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeradexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roclobster.BeeradexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Beeradex;
+			};
+			name = Debug;
+		};
+		3926D0241D57621F006A17E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeradexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roclobster.BeeradexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Beeradex;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -394,6 +501,7 @@
 				3926D0071D5582FC006A17E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3926D0081D5582FC006A17E4 /* Build configuration list for PBXNativeTarget "BeeradexTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +510,16 @@
 				3926D00A1D5582FC006A17E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3926D0251D57621F006A17E4 /* Build configuration list for PBXNativeTarget "BeeradexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3926D0231D57621F006A17E4 /* Debug */,
+				3926D0241D57621F006A17E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

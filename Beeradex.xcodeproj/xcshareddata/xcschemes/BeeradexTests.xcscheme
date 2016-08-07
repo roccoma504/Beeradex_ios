@@ -52,6 +52,16 @@
                ReferencedContainer = "container:Beeradex.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3926D01B1D57621F006A17E4"
+               BuildableName = "BeeradexUITests.xctest"
+               BlueprintName = "BeeradexUITests"
+               ReferencedContainer = "container:Beeradex.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
