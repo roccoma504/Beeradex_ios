@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Beeradex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3926CFFB1D5582FC006A17E4"
+               BuildableName = "BeeradexTests.xctest"
+               BlueprintName = "BeeradexTests"
+               ReferencedContainer = "container:Beeradex.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
