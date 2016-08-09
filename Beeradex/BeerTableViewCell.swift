@@ -1,20 +1,19 @@
 //
-//  BarTableViewCell.swift
+//  BeerTableViewCell.swift
 //  Beeradex
 //
-//  Created by Matthew Rocco on 8/7/16.
+//  Created by Matthew Rocco on 8/8/16.
 //  Copyright © 2016 Matthew Rocco. All rights reserved.
 //
 
 import UIKit
 
-class BarTableViewCell: UITableViewCell {
+class BeerTableViewCell: UITableViewCell {
 
     @IBOutlet weak var label: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
