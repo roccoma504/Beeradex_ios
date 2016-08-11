@@ -5,4 +5,4 @@ script:
 - xcodebuild clean build test -project Beeradex.xcodeproj -scheme BeeradexTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
 after_success:
-- bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
